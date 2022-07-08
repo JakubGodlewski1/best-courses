@@ -1,0 +1,14 @@
+.course {
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.course h2 {
+    font-size: 30px;
+}
+
+.course p {
+    font-size: 20px;
+    margin-bottom:15px;
+}
