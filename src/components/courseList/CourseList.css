@@ -1,0 +1,32 @@
+
+
+.course-list > div {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+}
+
+.course-list .card {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(253, 155, 117, 0.51);
+    cursor: pointer;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.course-list .card:hover {
+    background-color: rgba(253, 155, 117, 0.3);
+}
+
+.course-list .card h2 {
+    margin-bottom: 15px;
+}
+
+.course-list .card h3, .course-list .card p{
+    margin: 5px 0;
+}
