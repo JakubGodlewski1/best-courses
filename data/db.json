@@ -1,0 +1,33 @@
+{
+  "courses": [
+    {
+      "name": "english b1",
+      "price": "1950£",
+      "duration":"12 weeks",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto doloribus iure officia? Architecto, autem dignissimos ducimus exercitationem expedita harum illo, incidunt, ipsum iste libero magni omnis quibusdam tempore voluptates?\n"
+    },
+    {
+      "name": "spanish b2",
+      "price": "2350£",
+      "duration":"10 weeks",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto doloribus iure officia? Architecto, autem dignissimos ducimus exercitationem expedita harum illo, incidunt, ipsum iste libero magni omnis quibusdam tempore voluptates?\n"
+    },
+    {"name": "spanish for entrepreneurs",
+      "price": "4950£",
+      "duration":"36 weeks",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto doloribus iure officia? Architecto, autem dignissimos ducimus exercitationem expedita harum illo, incidunt, ipsum iste libero magni omnis quibusdam tempore voluptates?\n"
+    },
+    {
+      "name": "english for kids",
+      "price": "950£",
+      "duration":"2 weeks",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto doloribus iure officia? Architecto, autem dignissimos ducimus exercitationem expedita harum illo, incidunt, ipsum iste libero magni omnis quibusdam tempore voluptates?\n"
+    },
+    {
+      "name": "chinese",
+      "price": "3430£",
+      "duration":"16 weeks",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto doloribus iure officia? Architecto, autem dignissimos ducimus exercitationem expedita harum illo, incidunt, ipsum iste libero magni omnis quibusdam tempore voluptates?\n"
+    }
+  ]
+}
