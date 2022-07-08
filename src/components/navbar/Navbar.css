@@ -1,0 +1,32 @@
+.navbar{
+    background-color: coral;
+}
+
+.navbar nav{
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: coral;
+}
+
+.navbar h2 {
+    margin-right: auto;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.navbar p {
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+
+.navbar input {
+    border-radius: 5px;
+    height: 20px;
+    border: 1px solid black;
+    width: 200px;
+}
+
