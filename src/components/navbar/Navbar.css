@@ -5,16 +5,20 @@
 .navbar nav{
     display: flex;
     align-items: center;
-    padding: 15px 0;
+    padding: 15px 10px;
     max-width: 1200px;
     margin: 0 auto;
     background-color: coral;
+
 }
 
-.navbar h2 {
-    margin-right: auto;
+.navbar a {
+    margin: 0 auto 0 0;
     font-size: 26px;
     font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
 }
 
 .navbar p {

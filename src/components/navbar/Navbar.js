@@ -1,14 +1,24 @@
 import "./Navbar.css"
-import {useState} from "react";
+import {useEffect, useState} from "react";
+import {Link} from "react-router-dom";
+import {useQueryContext} from "../../hooks/useQueryContext";
 
 
 const Navbar = () => {
 
     const [search, setSearch] = useState("")
+    const {changeQuery} = useQueryContext()
+
+    useEffect(()=>{
+        changeQuery(search)
+    },[search])
+
     return (
         <div className="navbar">
             <nav>
-                <h2>Best Courses</h2>
+
+                    <Link to="/" className="title">Best Courses</Link>
+
                 <p>Search best courses: </p>
                 <input
                     type="text"

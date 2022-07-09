@@ -1,10 +1,16 @@
 import "./CourseList.css"
 import {useFetch} from "../../hooks/useFetch";
 import {Link} from "react-router-dom";
+import {useQueryContext} from "../../hooks/useQueryContext";
+
 
 const CourseList = () => {
-    const {data, isPending, error} = useFetch("http://localhost:3000/courses")
 
+    const {query} = useQueryContext()
+
+
+    const {data, isPending, error} = useFetch(
+        query.length > 0 ? `http://localhost:3000/courses/?q=${query}` : "http://localhost:3000/courses/")
 
     return (
         <div className="course-list">
