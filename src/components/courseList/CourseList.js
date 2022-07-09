@@ -3,7 +3,6 @@ import {useFetch} from "../../hooks/useFetch";
 import {Link} from "react-router-dom";
 import {useQueryContext} from "../../hooks/useQueryContext";
 
-
 const CourseList = () => {
 
     const {query} = useQueryContext()
@@ -12,9 +11,9 @@ const CourseList = () => {
     const {data, isPending, error} = useFetch(
         query.length > 0 ? `http://localhost:3000/courses/?q=${query}` : "http://localhost:3000/courses/")
 
+
     return (
         <div className="course-list">
-            <div>
                 {isPending && <p>Loading...</p>}
                 {error && <p>{error}</p>}
                 {data && data.map((course)=> (
@@ -26,7 +25,6 @@ const CourseList = () => {
                         </Link>
                     )
                 )}
-            </div>
         </div>
     );
 };
